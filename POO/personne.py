@@ -1,17 +1,17 @@
 class Personne():
 
     def __init__(self):
-        self.__nom = ""
-        self.__prenom = ""
-        self.__age = 0
-        self.__profession = ""
+        self.__nom = "Someone"
+        self.__prenom = "Nickname"
+        self.__age = 1
+        self.__profession = "Learner"
         self.__quartier = ""
         self.__ville = ""
         self.__pays = ""
-        self.__tel = 0
+        self.__tel = "+228 99 88 77 66"
 
     def sePresenter(self):
-        return f"Je m'appelle {self.__nom} {self.__prenom}. J'ai {self.__age} ans et je suis {self.__profession}."
+        return f"Je m'appelle {self.__nom} {self.__prenom}. J'ai {self.__age} an(s) et je suis {self.__profession}. Contactez-moi que le : {self.__tel}"
 
     def changerProfession(self, nvProfession):
         self.__profession = nvProfession
@@ -31,13 +31,3 @@ class Personne():
 
     def getNom(self):
         return self.__nom
-
-tom = Personne()        # Création d'un objet de la classe Personne ou instanciation
-jules = Personne()
-daniel = Personne()
-illane = Personne()
-abdoul = Personne()
-
-
-print(tom.sePresenter())
-print(tom.getAge())
