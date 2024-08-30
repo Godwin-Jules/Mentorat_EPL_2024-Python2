@@ -1,6 +1,6 @@
 from exercice1 import Complexe
-from exercice2 import *
-from exercice3 import *
+from Activite03.exercice2.exercice2 import *
+from Activite03.exercice3.exercice3 import *
 
 # Application de l'exercice 1
 # nb1 = Complexe(1, -1)
