@@ -23,8 +23,11 @@ class Complexe:
 
     # La méthode qui permet de faire afficher un nombre complexe
     def __str__(self):
+        a = self.getA()
         b = self.getB()
-        return f"{self.getA()} {"+" if b > 0 else ""}{b if b not in {-1, 0, 1} else ""}{"i" if b != 0 else ""}"
+        if not(a != 0 or (a == 0 and b == 0)):
+            a = ""
+        return f"{a}{"+" if b > 0 else ""}{b if b not in {-1, 0, 1} else ""}{"i" if b != 0 else ""}"
 
     # La méthode qui retourne la somme de deux nombre complexes
     def ajouter(self, complex):
@@ -42,7 +45,7 @@ class Complexe:
 
     # La méthode qui calcule le module d'un nombre complexe
     def module(self):
-        return sqrt(self.getA()**2 + self.getB()**2)
+        return f"{sqrt(self.getA()**2 + self.getB()**2):.2f}"
 
     # La méthode qui retourne le carré d'un nombre complexe
     def carre(self):

@@ -1,4 +1,4 @@
-from exercice1 import Complexe
+from exercice1.exercice1 import Complexe
 from exercice2.exercice2 import *
 from exercice3.exercice3 import *
 from exercice4.exercice4 import *
@@ -6,6 +6,7 @@ from exercice4.exercice4 import *
 
 
 # Application de l'exercice 1
+print("\n=================== APPLICATION DE L'EXERCICE 1 ===================\n\n")
 nb1 = Complexe(1, -1)
 nb2 = Complexe(2, 4)
 
@@ -25,6 +26,7 @@ print(Complexe())
 
 
 # Application de l'exercice 2
+print("\n\n\n=================== APPLICATION DE L'EXERCICE 2 ===================\n\n")
 com6 = Commercial("TREVOR", "Albertine", 180_000)
 emp1 = Employee("KOKOU", "Komi", 245)
 emp2 = Employee("AKAKPO", "Komla", 305)
@@ -67,6 +69,7 @@ dev_poo.afficherListeDePaye()
 
 
 # Application de l'exercice 3
+print("\n\n\n=================== APPLICATION DE L'EXERCICE 3 ===================\n\n")
 livre1 = Livre("Automate the Boring Stuff with Python", "Al Sweigart", "978-1-59327-992-9")
 livre2 = Livre("L'art de négocier", "Dag Heward-Mills", "978-2-212-54434-3")
 livre3 = Livre("English Grammar in Use", "Raymond Murphy", "978-1-108-58662-7")
@@ -88,6 +91,7 @@ print(membre1.emprunter_livre(livre1))
 
 
 # Application de l'exercice 4
+print("\n\n\n=================== APPLICATION DE L'EXERCICE 4 ===================\n\n")
 pk1 = Pokemon("pokemon 1")
 pk2 = PokemonFeu("PokemonFeu 1")
 pk3 = PokemonFeu("PokemonFeu 2")
@@ -118,7 +122,7 @@ pk5.attaquer(pk2)   # pk2 = 85, pk5 = 70
 pk4.attaquer(pk3)   # pk3 = 65, pk4 = 90
 
 # Afffichage après attaques
-print("\nEtat des pokémons après les attaques")
+print("Etat des pokémons après les attaques")
 pk1.afficher()
 pk2.afficher()
 pk3.afficher()
