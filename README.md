@@ -5,7 +5,8 @@
 Ecrire un programme qui fait le calcule entre deux nombres en fonction de l'opération de l'utilisateur
 
 ### Exercice 2
-Ecrire un programme qui calcule la distance entre deux points $A(x_a, y_a)$ et $B(x_b, y_b)$. La formule de calcul de la distance entre deux points est donnée sous la forme suivante :$$d(A, B) = \sqrt{(x_a - x_b)^2 + (y_a - y_b)^2}$$
+Ecrire un programme qui calcule la distance entre deux points $A(x_a, y_a)$ et $B(x_b, y_b)$. La formule de calcul de la distance entre deux points est donnée sous la forme suivante :
+$d(A, B) = \sqrt{(x_a - x_b)^2 + (y_a - y_b)^2}$
 
 ### Exercice 3 : Première partie du jeu de devinette
 Dans cette partie, l'utilisateur est amené à fixer la valeur maximale du nombre aléatoire à générer.  
