@@ -1,29 +1,39 @@
 from Rectangle import Rectangle
 
 
-# """
 # Essai avec les décorateurs
 
-# def deco(func):
+"""
+def my_decorator(func):
+    print("Beginning of the decorator")
+    func()
+    print("Completed")
+
+# def my_decorator(func):
 #     def wrapper():
-#         print("Starting of the decoration")
+#         print("Beginning of the decorator")
 #         func()
-#         print("End of the decoration")
+#         print("Completed")
 #     return wrapper
 
 def base_function():
     print("This is the base function")
 
 
-def my_decorator(func):
-    print("Beginning of the decorator")
-    func()
-    print("Completed")
-
-
 base_function()
+"""
+
+
 
 """
+def deco(func):
+    def wrapper():
+        print("Starting of the decoration")
+        func()
+        print("End of the decoration")
+    return wrapper
+
+
 def my_decorator(func):
     @deco
     @deco
@@ -39,10 +49,10 @@ def base_function():
     print("This is the base function")
 
 base_function()
-# """
+"""
 
 
-""""
+"""
 def deco_of_deco(func):
     def wrapper(*args, **kwargs):
         print("Decorating \"add_meat\" function!")
