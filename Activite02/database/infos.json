@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "age": 20,
+    "sex": "M",
+    "travail": "Ma\u00e7on",
+    "poids": 55,
+    "taille": 1.71,
+    "IMC": 18.81,
+    "classe_sante": 1
+  },
+  {
+    "id": 2,
+    "age": 40,
+    "sex": "F",
+    "travail": "Chauffeur",
+    "poids": 70,
+    "taille": 1.54,
+    "IMC": 29.52,
+    "classe_sante": 2
+  },
+  {
+    "id": 3,
+    "age": 18,
+    "sex": "F",
+    "travail": "Etudiant",
+    "poids": 50,
+    "taille": 1.5,
+    "IMC": 22.22,
+    "classe_sante": 1
+  },
+  {
+    "id": 4,
+    "age": "17",
+    "sex": "M",
+    "travail": "Eleve",
+    "poids": 60.0,
+    "taille": 1.75,
+    "IMC": 19.59,
+    "classe_sante": 1
+  },
+  {
+    "id": 5,
+    "age": 4,
+    "sex": "F",
+    "travail": "Enfant",
+    "poids": 17.0,
+    "taille": 0.87,
+    "IMC": 22.46,
+    "classe_sante": 1
+  },
+  {
+    "id": 6,
+    "age": 12,
+    "sex": "M",
+    "travail": "Enfant",
+    "poids": 50,
+    "taille": 1.5,
+    "IMC": 22.22,
+    "classe_sante": 1
+  },
+  {
+    "id": 7,
+    "age": 18,
+    "sex": "M",
+    "travail": "Etudiant",
+    "poids": 50,
+    "taille": 1.5,
+    "IMC": 22.22,
+    "classe_sante": 1
+  },
+  {
+    "id": 8,
+    "age": 18,
+    "sex": "M",
+    "travail": "Etudiant",
+    "poids": 55.0,
+    "taille": 171.0,
+    "IMC": 0.0,
+    "classe_sante": 0
+  }
+]

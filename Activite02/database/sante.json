@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "diag": "Sous poids",
+    "raison": "Sous alimentation",
+    "conseil": "Plus d'alimentation"
+  },
+  {
+    "id": 1,
+    "diag": "Poids normal",
+    "raison": "Vous prenez soin de notre ligne",
+    "conseil": "Contunez comme cela"
+  },
+  {
+    "id": 2,
+    "diag": "Surpoids",
+    "raison": "Mauvaise alimentation",
+    "conseil": "Consommer moins gras, Faites un peu de sport, Pratiquer le je\u00fbne intermittant"
+  },
+  {
+    "id": 3,
+    "diag": "Ob\u00e9sit\u00e9",
+    "raison": "Mauvaise alimentation, Manque d'activit\u00e9 physique",
+    "conseil": "Consommer moins gras, Faites un peu de sport, Pratiquer le je\u00fbne intermittant"
+  },
+  {
+    "id": 4,
+    "diag": "Ob\u00e9sit\u00e9 s\u00e9v\u00e8re",
+    "raison": "Mauvaise alimentation, Manque d'activit\u00e9 physique",
+    "conseil": "Consommer moins gras, Faites un peu de sport, Pratiquer le je\u00fbne intermittant, Demander un suivi par un Nutritioniste"
+  },
+  {
+    "id": 5,
+    "diag": "Ob\u00e9sit\u00e9 morbide",
+    "raison": "Mauvaise alimentation, Manque d'activit\u00e9 physique",
+    "conseil": "Consommer moins gras, Faites un peu de sport, Pratiquer le je\u00fbne intermittant, Songer \u00e0 une intervention bariatrique"
+  }
+]

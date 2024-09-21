@@ -3,19 +3,27 @@ from Rectangle import Rectangle
 
 # """
 # Essai avec les décorateurs
-# def my_decorator(func):
-#     print("Beginning of the decorator")
-#     func()
-#     print("Completed")
 
-def deco(func):
-    def wrapper():
-        print("Starting of the decoration")
-        func()
-        print("End of the decoration")
-    return wrapper
+# def deco(func):
+#     def wrapper():
+#         print("Starting of the decoration")
+#         func()
+#         print("End of the decoration")
+#     return wrapper
+
+def base_function():
+    print("This is the base function")
 
 
+def my_decorator(func):
+    print("Beginning of the decorator")
+    func()
+    print("Completed")
+
+
+base_function()
+
+"""
 def my_decorator(func):
     @deco
     @deco
